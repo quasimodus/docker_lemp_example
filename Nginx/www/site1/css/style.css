@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+body{
+  background-color: #2b2c36;
+  color: antiquewhite;
+  padding: 30px;
+
+  font-family: 'VT323', monospace;
+  font-size: 16px;
+
+}
+
+.button {
+  background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.2rem;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+	width: auto;
+	font-family: 'VT323', monospace;
+}
+
+.button:hover {background-color: #005800}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  font-family: 'VT323', monospace;
+}
+
+#button2 {
+  background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.2rem;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+	width: auto;
+	font-family: 'VT323', monospace;
+}
+
+#button2:hover {background-color: #c00606}
+
+#button2:active {
+  background-color: #e21829;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  font-family: 'VT323', monospace;
+}
+
+#button3 {
+  background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.2rem;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+	width: auto;
+	font-family: 'VT323', monospace;
+}
+
+#button3:hover {background-color: #0000BC}
+
+#button3:active {
+  background-color: #0000BC;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  font-family: 'VT323', monospace;
+}
+
+table {
+	caption-side: bottom;
+	text-align: right;
+	padding: 10px 0;
+	font-size: 22px;
+	color: antiquewhite;
+ }
